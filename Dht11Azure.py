@@ -13,7 +13,7 @@ instance = dht11.DHT11(pin=21)
 
 # Example using a Raspberry Pi with DHT sensor
 # connected to GPIO23.
-pin = 4
+pin = 17
 
 # Try to grab a sensor reading.  Use the read_retry method which will retry up
 # to 15 times to get a sensor reading (waiting 2 seconds between each retry).
